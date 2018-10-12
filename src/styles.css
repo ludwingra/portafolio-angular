@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* SVG Animation Loading */
+svg path,
+svg rect{
+  fill: black;
+}
+/* End SVG Animation Loading */
+
+/* Animaciones */
 .animated {
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
@@ -25,7 +33,7 @@
 			opacity: 1;
 	}
 }
-  
+
 @keyframes fadeIn {
 	from {
 			opacity: 0;
@@ -35,7 +43,7 @@
 			opacity: 1;
 	}
 }
-  
+
 .fadeIn {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
